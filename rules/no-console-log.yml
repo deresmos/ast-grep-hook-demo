@@ -1,0 +1,6 @@
+id: no-console-log
+language: JavaScript
+severity: error
+message: console.log は利用しないで削除
+rule:
+  pattern: console.log($$$ARGS)
